@@ -17,7 +17,8 @@ Actions:
 9. Variation K: In one single and one multiline text area, copy and paste: `back-quote: Hawai i`
 10. Variation L: In one single and one multiline text area, copy and paste: `hash: #20`
 11. Variation M: In one single and one multiline text area, copy and paste: `escaped slash: \/`
-12. Save the record
+12. Variation N: In one single and one multiline text area, copy and paste: `I_have...no!spaces+In|||my***TargetInput...and#It'sKindaWOnky`
+13. Save the record
 
 Expected:
 After the successful save message appears, all fields should contain the same value as you entered
