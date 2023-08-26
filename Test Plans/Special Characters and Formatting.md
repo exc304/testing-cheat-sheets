@@ -78,4 +78,26 @@
 
 **Expected: After saving you should expect to see the field still contains all of the names you entered (correctly encoded)**
 
+---
+
+### Test 5: Special Characters in Search
+**Actions:**
+> *Continue from Test 4*
+> In the top center Search area select Person from the Record Types list  
+> ***In the Search field, successively enter each of the authority names you previously entered in Test 4, one by one, and click Search:***
+> 
+> | Names          |
+> | -------------- |
+> | Sanford & Sons |
+> | O'Reilly       |
+> | Hawai`i        |
+> | "Bull" Connor  |
+> | Lech Wałęsa    |
+> | Herr Müller    |
+>> Repeat this step for each name above:  
+>> Enter the Name  
+>> Click the Search button
+
+**Expected: The record containing that term should appear in the results**
+
   
