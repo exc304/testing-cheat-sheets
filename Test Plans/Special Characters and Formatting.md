@@ -39,5 +39,20 @@
 
 ---
 
+### Test 3: Non-ASCII Characters in UI
+**Actions:**
+> *Continue from Test 2 (or open an existing Object cataloging record)*
+> ***In one single and one multiline text area, copy and paste:*** `café`
+>
+>> ***In one single and one multiline text area, copy and paste:***
+>>
+>> | Be sure characters paste as shown      | 
+>> | ----------- | 
+>> | ñóǹ äŝçíì 汉语/漢語  华语/華語 Huáyǔ; 中文 Zhōngwén 漢字仮名交じり文 Lech Wałęsa æøå| 
+>
+> Save the record
+
+**Expected: After the successful save message appears, all fields should contain the same value as you entered**
+
 
   
