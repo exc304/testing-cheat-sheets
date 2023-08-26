@@ -54,5 +54,28 @@
 
 **Expected: After the successful save message appears, all fields should contain the same value as you entered**
 
+---
+
+### Test 4: ASCII Special Characters and Non-ASCII Characters in fields with autocomplete behavior
+**Actions:**  
+> *Continue from Test 3 (or open an existing Object cataloging record)*  
+> ***In a repeating authority field, such as the Content->Person field in Cataloging, enter each of the following Person names, each in a separate instance of that repeating field:***
+>
+> | Names          |
+> | -------------- |
+> | Sanford & Sons |
+> | O'Reilly       |
+> | Hawai`i        |
+> | "Bull" Connor  |
+> | Lech Wałęsa    |
+> | Herr Müller    |
+>> Repeat these steps for each name above:  
+>> Enter the Name  
+>> When prompted, add your newly-entered Person name to a vocabulary (such as "Local Persons" or "ULAN Persons")  
+>> Click the + button to add a new Person field  
+>
+> When you are done, Save the Object Cataloging record.
+
+**Expected: After saving you should expect to see the field still contains all of the names you entered (correctly encoded)**
 
   
